@@ -29,7 +29,7 @@ full-stack-observability/
 
 
 ## Run the Project
-```bash
+
 docker compose up --build
 Access Services
 App: http://localhost:8000
@@ -38,8 +38,9 @@ Grafana: http://localhost:3001
 Jaeger: http://localhost:16686
 
 Grafana Login:
-
 admin / admin
+
+
 Summary
 
 Built a full-stack observability platform using Prometheus, Grafana, and Jaeger to monitor containerized services, configure alerts, visualize metrics, and analyze distributed traces.
